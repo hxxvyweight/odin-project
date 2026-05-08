@@ -1,94 +1,43 @@
-body {
+body {  
     display: flex;
-    flex-direction: column; 
-    min-height: 100vh;
+    flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
-
-
-#welcomeimage {
-    display: flex;
-    flex: 0;
-    max-height: 300px;
-    min-width: 30%;
-    padding: 100px;
-}
-ul {
-    list-style-type: none;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-    
-
-}
-.logosec {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px;
-    background: #1F2937;
-    color: white;
+.top-section {  
     flex: 1;
+    padding: 20 150px;
+    color: #f9faf8;
 }
-main {
+.logo {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #1F2937;
-    color: white;
-    height: 50%;
+    flex: 1;
 
-    
 }
-button {
+.header-container {
     display: flex;
+
+    background: #1f2937;
 }
-section {   
+.nav-links {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    flex: 1;
+
+
+
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background: #1F2937;
-    color: white;
+
+a {
+    list-style-type: none;
+
 }
-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.navlinks {
-    display: flex;
-    gap: 20px;
-}
-image-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 20px;
-}
+
 footer {
     display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    background: #1F2937;
-    color: white;
-    max-height: 50px;
-    align-self: stretch;
+    background: #1f2937;
 }
-cta-container {
+
+.hero-section {
     display: flex;
     flex: 1;
-    justify-content: center;   
-    align-items: center;
-    gap: 20px;
 }
